@@ -9,11 +9,11 @@ const ExtIcon = () => <svg width="14" height="14" viewBox="0 0 14 14" fill="none
 
 export default function Toolkits() {
   return (
-    <div style={{ minHeight: '100vh', fontFamily: "'Libre Franklin', sans-serif", color: '#3B2A1F' }}>
+    <div style={{ minHeight: '100vh', fontFamily: "'Raleway', sans-serif", color: '#3B2A1F' }}>
       <Nav />
       <main className="fade-in" style={{ maxWidth: 1000, margin: '0 auto', padding: '3rem 1.5rem 4rem' }}>
         <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
-          <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', fontWeight: 700, color: '#3B2A1F', margin: '0 0 0.5rem' }}>Toolkits</h2>
+          <h2 style={{ fontFamily: "'Crimson Pro', serif", fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', fontWeight: 700, color: '#3B2A1F', margin: '0 0 0.5rem' }}>Toolkits</h2>
           <p style={{ fontSize: '0.85rem', color: '#8A7B6B', maxWidth: 560, margin: '0 auto', lineHeight: 1.65 }}>Research-backed, compassionately designed educational resources for people navigating chronic illness. Each toolkit breaks down medical information into accessible language and provides practical tools for self-advocacy.</p>
         </div>
 
@@ -24,7 +24,7 @@ export default function Toolkits() {
                 <img src={tk.cover} alt={tk.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <div style={{ padding: '1.75rem' }}>
-                <h4 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.15rem', fontWeight: 600, color: '#3B2A1F', margin: '0 0 0.75rem' }}>{tk.name}</h4>
+                <h4 style={{ fontFamily: "'Crimson Pro', serif", fontSize: '1.15rem', fontWeight: 600, color: '#3B2A1F', margin: '0 0 0.75rem' }}>{tk.name}</h4>
                 <p style={{ fontSize: '0.82rem', color: '#6B5D50', lineHeight: 1.75, margin: '0 0 1.25rem' }}>{tk.desc}</p>
                 <a href={tk.link} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '0.6rem 1.25rem', borderRadius: 100, background: tk.color, color: '#fff', fontSize: '0.8rem', fontWeight: 600, textDecoration: 'none' }}>
                   View toolkit <ExtIcon />

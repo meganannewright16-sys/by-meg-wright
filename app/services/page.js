@@ -16,11 +16,11 @@ const ExtIcon = () => <svg width="14" height="14" viewBox="0 0 14 14" fill="none
 
 export default function Services() {
   return (
-    <div style={{ minHeight: '100vh', fontFamily: "'Libre Franklin', sans-serif", color: '#3B2A1F' }}>
+    <div style={{ minHeight: '100vh', fontFamily: "'Raleway', sans-serif", color: '#3B2A1F' }}>
       <Nav />
       <main className="fade-in" style={{ maxWidth: 1000, margin: '0 auto', padding: '3rem 1.5rem 4rem' }}>
         <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
-          <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', fontWeight: 700, color: '#3B2A1F', margin: '0 0 0.5rem' }}>Services</h2>
+          <h2 style={{ fontFamily: "'Crimson Pro', serif", fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', fontWeight: 700, color: '#3B2A1F', margin: '0 0 0.5rem' }}>Services</h2>
           <p style={{ fontSize: '0.85rem', color: '#8A7B6B', maxWidth: 520, margin: '0 auto', lineHeight: 1.65 }}>From landing pages to lifecycle campaigns. Communication engineered to perform.</p>
         </div>
 
@@ -28,17 +28,17 @@ export default function Services() {
           {SERVICES_DATA.map((s, i) => (
             <div key={i} style={{ background: 'rgba(255,255,255,0.55)', border: '1px solid #E0D5C8', borderRadius: 14, padding: '1.75rem', textAlign: 'center' }}>
               <div style={{ marginBottom: '0.75rem', display: 'flex', justifyContent: 'center' }}>{Icons[s.icon]}</div>
-              <h4 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.05rem', fontWeight: 600, color: '#3B2A1F', margin: '0 0 0.5rem' }}>{s.name}</h4>
+              <h4 style={{ fontFamily: "'Crimson Pro', serif", fontSize: '1.05rem', fontWeight: 600, color: '#3B2A1F', margin: '0 0 0.5rem' }}>{s.name}</h4>
               <p style={{ fontSize: '0.8rem', color: '#7A6B5D', lineHeight: 1.6, margin: 0 }}>{s.desc}</p>
             </div>
           ))}
         </div>
 
-        <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.5rem', fontWeight: 700, color: '#3B2A1F', marginBottom: '1.25rem' }}>Selected Projects</h3>
+        <h3 style={{ fontFamily: "'Crimson Pro', serif", fontSize: '1.5rem', fontWeight: 700, color: '#3B2A1F', marginBottom: '1.25rem' }}>Selected Projects</h3>
         {CASES.map((cs, i) => (
           <div key={i} style={{ background: 'linear-gradient(135deg, #5C4033, #3B2A1F)', borderRadius: 16, padding: '2rem 2.25rem', marginBottom: '1.25rem', color: '#F5EDE3' }}>
             <span style={{ fontSize: '0.65rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#D4B896' }}>{cs.type}</span>
-            <h4 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.35rem', fontWeight: 600, margin: '0.5rem 0 0.75rem', color: '#FAF6F1' }}>{cs.title}</h4>
+            <h4 style={{ fontFamily: "'Crimson Pro', serif", fontSize: '1.35rem', fontWeight: 600, margin: '0.5rem 0 0.75rem', color: '#FAF6F1' }}>{cs.title}</h4>
             <p style={{ fontSize: '0.88rem', lineHeight: 1.75, color: '#C4B5A2', margin: '0 0 1rem' }}>{cs.desc}</p>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', alignItems: 'center' }}>
               <span style={{ background: 'rgba(196,113,91,0.2)', borderRadius: 100, padding: '0.4rem 1rem', fontSize: '0.78rem', color: '#E8A88F', fontWeight: 500 }}>{cs.result}</span>

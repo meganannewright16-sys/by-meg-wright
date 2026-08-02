@@ -18,7 +18,7 @@ const NAV_CARDS = [
 
 export default function Home() {
   return (
-    <div style={{ minHeight: '100vh', fontFamily: "'Libre Franklin', sans-serif", color: '#3B2A1F' }}>
+    <div style={{ minHeight: '100vh', fontFamily: "'Raleway', sans-serif", color: '#3B2A1F' }}>
       <Nav />
       <main style={{ maxWidth: 1000, margin: '0 auto', padding: '0 1.5rem 4rem' }}>
 
@@ -27,7 +27,7 @@ export default function Home() {
           <p style={{ fontSize: '0.7rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#A0845C', marginBottom: '1.5rem', fontWeight: 500 }}>
             Growth marketing · Research · Creative writing
           </p>
-          <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 'clamp(1.8rem, 4.5vw, 2.8rem)', fontWeight: 700, color: '#3B2A1F', lineHeight: 1.25, maxWidth: 640, margin: '0 auto' }}>
+          <h2 style={{ fontFamily: "'Crimson Pro', serif", fontSize: 'clamp(1.8rem, 4.5vw, 2.8rem)', fontWeight: 700, color: '#3B2A1F', lineHeight: 1.25, maxWidth: 640, margin: '0 auto' }}>
             Words that move people.<br />Strategy that moves needles.
           </h2>
           <p style={{ fontSize: '0.92rem', color: '#6B5D50', lineHeight: 1.8, maxWidth: 540, margin: '1.5rem auto 0' }}>
@@ -40,7 +40,7 @@ export default function Home() {
           {NAV_CARDS.map(({ label, href }) => (
             <Link key={href} href={href} style={{
               background: 'rgba(255,255,255,0.55)', border: '1px solid #E0D5C8', borderRadius: 12,
-              padding: '1.25rem 1.5rem', textAlign: 'left', fontFamily: "'Libre Franklin', sans-serif",
+              padding: '1.25rem 1.5rem', textAlign: 'left', fontFamily: "'Raleway', sans-serif",
               fontSize: '0.88rem', color: '#4A3728', fontWeight: 500, textDecoration: 'none',
               display: 'flex', justifyContent: 'space-between', alignItems: 'center',
               transition: 'all 0.3s ease',
@@ -56,11 +56,11 @@ export default function Home() {
             <img src="/MA_WRIGHT.png" alt="Meg Wright" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           </div>
           <div style={{ flex: 1, minWidth: 250 }}>
-            <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.5rem', fontWeight: 700, color: '#3B2A1F', margin: '0 0 0.75rem' }}>Hi, I'm Meg</h3>
+            <h3 style={{ fontFamily: "'Crimson Pro', serif", fontSize: '1.5rem', fontWeight: 700, color: '#3B2A1F', margin: '0 0 0.75rem' }}>Hi, I'm Meg</h3>
             <p style={{ fontSize: '0.88rem', color: '#6B5D50', lineHeight: 1.75, margin: '0 0 1rem' }}>
               Linguist turned marketer. Every brand has a story and every founder has a voice. My job is to help you find both, so you can tell your story in your own voice, to the people who need to hear it.
             </p>
-            <Link href="/about" style={{ color: '#A0845C', fontFamily: "'Libre Franklin', sans-serif", fontSize: '0.82rem', fontWeight: 600, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+            <Link href="/about" style={{ color: '#A0845C', fontFamily: "'Raleway', sans-serif", fontSize: '0.82rem', fontWeight: 600, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
               More about me <ArrowIcon />
             </Link>
           </div>
@@ -68,7 +68,7 @@ export default function Home() {
 
         {/* CTA */}
         <div style={{ background: 'linear-gradient(135deg, #5C4033, #3B2A1F)', borderRadius: 18, padding: '3rem 2.5rem', textAlign: 'center' }}>
-          <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.5rem', fontWeight: 700, color: '#F5EDE3', margin: '0 0 0.75rem' }}>Let's talk about your project</h3>
+          <h3 style={{ fontFamily: "'Crimson Pro', serif", fontSize: '1.5rem', fontWeight: 700, color: '#F5EDE3', margin: '0 0 0.75rem' }}>Let's talk about your project</h3>
           <p style={{ fontSize: '0.88rem', color: '#C4B5A2', lineHeight: 1.7, maxWidth: 440, margin: '0 auto 1.75rem' }}>
             Book a free consultation call and let's figure out how to get your message in front of the right people.
           </p>
