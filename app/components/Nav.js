@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { SHOW_FILMIC_EXPERIENCE } from '../lib/features';
 
 export default function Nav() {
   const pathname = usePathname();
@@ -10,7 +11,7 @@ export default function Nav() {
     ['/toolkits', 'Toolkits'],
     ['/poetry', 'Poetry'],
     ['/prose', 'Prose'],
-    ['/filmic-experience', 'Filmic Experience'],
+    ...(SHOW_FILMIC_EXPERIENCE ? [['/filmic-experience', 'Filmic Experience']] : []),
     ['/about', 'About'],
   ];
 
