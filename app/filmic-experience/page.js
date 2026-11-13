@@ -1,7 +1,5 @@
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-import { notFound } from 'next/navigation';
-import { SHOW_FILMIC_EXPERIENCE } from '../lib/features';
 
 export const metadata = {
   title: 'Filmic Experience | By Meg Wright',
@@ -15,7 +13,6 @@ const FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScXcIQI0fxkw1fvL1Ueff
 const ExtIcon = () => <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M11 8v3.5a1.5 1.5 0 01-1.5 1.5h-7A1.5 1.5 0 011 11.5v-7A1.5 1.5 0 012.5 3H6" /><polyline points="9,1 13,1 13,5" /><line x1="5.5" y1="8.5" x2="13" y2="1" /></svg>;
 
 export default function FilmicExperience() {
-  if (!SHOW_FILMIC_EXPERIENCE) notFound();
   return (
     <div style={{ minHeight: '100vh', fontFamily: "'Raleway', sans-serif", color: '#3B2A1F' }}>
       <Nav />
