@@ -10,6 +10,7 @@ export default function Nav() {
     ['/toolkits', 'Toolkits'],
     ['/poetry', 'Poetry'],
     ['/prose', 'Prose'],
+    ['/filmic-experience', 'Filmic Experience'],
     ['/about', 'About'],
   ];
 
