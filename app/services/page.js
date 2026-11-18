@@ -21,7 +21,9 @@ export default function Services() {
       <main className="fade-in" style={{ maxWidth: 1000, margin: '0 auto', padding: '3rem 1.5rem 4rem' }}>
         <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
           <h2 style={{ fontFamily: "'Crimson Pro', serif", fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', fontWeight: 700, color: '#3B2A1F', margin: '0 0 0.5rem' }}>Services</h2>
-          <p style={{ fontSize: '0.85rem', color: '#8A7B6B', maxWidth: 520, margin: '0 auto', lineHeight: 1.65 }}>From landing pages to lifecycle campaigns. Communication engineered to perform.</p>
+          <p style={{ fontSize: '0.85rem', color: '#8A7B6B', maxWidth: 520, margin: '0 auto', lineHeight: 1.65 }}>From landing pages to lifecycle campaigns. Communication engineered to perform.{' '}
+            <a href="/Megan-Anne-Wright-Portfolio.pdf" target="_blank" rel="noopener noreferrer" style={{ color: '#C4715B', fontWeight: 600, textDecoration: 'underline', textUnderlineOffset: 3 }}>Get a snapshot here</a>
+          </p>
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(210px, 1fr))', gap: '1rem', marginBottom: '3.5rem' }}>
